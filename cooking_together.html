@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.jpeg">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito"
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-035ZHB605J"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+ 		function gtag(){dataLayer.push(arguments);}
+ 		 gtag('js', new Date());
+
+ 		 gtag('config', 'G-035ZHB605J');
+</script>
+<script src="https://kit.fontawesome.com/d7cded9bc2.js" crossorigin="anonymous"></script>
+	<title>Cooking Together</title>
+<style>
+input{
+	display:inline;
+  }
+  /* *:focus{
+      border:5px solid #177289;
+      background-color:;
+    } */
+  </style>
+</head>
+<body>
+	
+	<header>
+		<nav>
+			<ul style= "
+				display: flex;
+				flex-wrap:wrap;
+				justify-content: space-around;
+
+			">
+				<a class = "skip-main" href="#main"> Skip to Main Content</a> 
+				<li><a href = "about_me.html">About Me</a></li>
+				<li><a href = "savory.html">Savory Recipes</a></li>
+				<li class="active"><a href = "cooking_together.html">Cooking Together</a></li>
+				<li><a href = "sweet.html">Sweet Recipes</a></li>
+			</ul>
+		</nav>
+		
+		<h1 id="main">Cooking Together</h1>
+	</header>	
+	
+	<main>
+	<p>I draw cooking inspiration from a wide variety of sources. Because I lived in Hungary, I love finding and perfectin recipes to taste like my memory of the food shared with friends in Budapest. In particular, it is my life goal to bake as well as Hungarians. Their baked goods are simple but delightful. Many of my friends have lived and traveled in diverse countries around the world. They share the recipes they find. We love cooking together.  
+		</p>
+		<form>
+			<fieldset>
+			  <legend>What do you like to cook?</legend>
+		  
+			  <label for="name_id"><i class="fa-regular fa-face-grin"></i>Your Name</label>
+			  <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" placeholder= "Your Name Here"><br>
+		  
+			  <label for="email_id"><i class="fa-solid fa-envelope"></i>Your Email</label>
+			  <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required><br>
+		  
+			  <label for="phone_id"><i class="fa-solid fa-phone"></i>Your Phone Number</label>
+			  <input type="tel" name="phone" placeholder="123-456-7890" id = "phone_id" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+			 
+		  
+		  
+			  <label><i class="fa-solid fa-utensils"></i>What is your favorite meal to cook?</label><br>
+			  <input type="radio" id = "breakfast" name= "fav_food" value = 'breakfast'>
+			  <label for="breakfast">BREAKFAST</label><br>
+			  <input type="radio" id = "lunch" name="fav_food" value ="lunch">
+			  <label for="lunch">LUNCH</label><br>
+			  <input type="radio" id="dinner" name="fav_food" value="dinner">
+			  <label for="dinner">DINNER</label><br>
+			  <input type="radio" id="dessert" name="fav_food" value="dessrt">
+			  <label for="dessert">DESSERT</label>
+		  
+			  <input type="checkbox" checked="checked" name="remember" id = "cBox"> 
+			  <label for ="cBox">Remember me</label>
+		  
+			  <input type="submit" value = "Contact Me">
+			</fieldset>
+		   </form>
+		<div class="grid">
+		<img src = "images/food_with_friends.jfif" alt = "Friends eating together"  style= "max-width: 100% ; height: auto" />
+		<img src = "images/happy_hour.jfif" alt = "friends gathered for fun" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/grandmother_grandson.jpg" alt = "Grandmother and grandson cook together" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/friends_cooking.jpg"  alt = "Three friends cooking" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/kids_table.jfif" alt ="two  children eating at the table" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/smoothie.jfif" alt ="a woman drinks a smoothie" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/salad_bar.jfif" alt ="salad bar fixings" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/jimmy_dean.jfif" alt = "a couple cooks breakfast" style= "max-width: 100% ; height: auto"/>
+		<img src = "images/ingrediants.jfif" alt = "eggs, flour, butter" style= "max-width: 100% ; height: auto"/>
+		
+	</div>
+	</main>
+
+	<footer>
+		<p>Rebekah Williamson &copy; 2022</p>
+	</footer>
+</body>
+</html>
